@@ -20,7 +20,6 @@ exports.signup = (req, res, next) => {
 };
 
 
-
 //conexion au compte de l'utilisateur 
 exports.login = (req, res, next) => {
     User.findOne({ email: req.body.email })

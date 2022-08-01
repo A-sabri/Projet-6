@@ -2,6 +2,7 @@
 const express = require('express');
 const router = express.Router();
 
+//importaion du controller "user"
 const userCtrl = require('../controllers/user');
 
 //inscription de l'utilisateur 
